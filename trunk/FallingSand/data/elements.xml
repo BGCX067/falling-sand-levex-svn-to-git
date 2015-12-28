@@ -1,0 +1,158 @@
+<?xml version='1.0'?>
+<groups>
+	<group name="Materials" category="material" >
+			<material name="nothing" info="Needed for techincal reasons. DONT REMOVE" dontadd="a">
+                <properties color="0_0_0" physx="eraser" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+            <material name="Sand" info="Simple Sand.">
+                <properties color="244_164_96" physx="sand" type="gritty" density="100" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+            <material name="Steam" info="100oC water">
+                <properties color="135_206_250" physx="steam" type="gas" density="-20" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+            <material name="Salt" info="Turns water to saltwater">
+                <properties color="255_245_238" physx="salt" type="gritty" density="100" chemic="acid" resistant="1" burnable="0" />
+            </material>
+            <material name="Smoke" info="*cough* *cough*">
+                <properties color="139_125_107" physx="smoke" type="gas" density="-10" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+            <material name="Gas" info="Gas, booms when exposed to fire.">
+                <properties color="255_165_0" physx="gas" type="gas"  density="0" chemic="neutral" resistant="1" burnable="1" />
+            </material>
+            <material name="Vine" info="Strange plant....">
+                <properties color="0_255_100" physx="vine" type="plant" density="0" chemic="neutral" resistant="0" burnable="0" />
+            </material>
+            <material name="Seed" info="Grows trees.">
+                <properties color="153_051_0" physx="seed" type="plant" density="0" chemic="neutral" resistant="0" burnable="0" />
+            </material>
+            <material name="Water" info="The source of life.">
+                <properties color="0_0_255" physx="water" type="fluid" density="1" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+            <material  name="Acid" info="Destroys other elements.">
+                <properties color="124_252_0" physx="acid" type="fluid" density="10" chemic="acid" resistant="0" burnable="0" />
+            </material>
+            <material name="Oil" info="A burnable awesomness!">
+                <properties color="139_069_019" physx="oil" type="fluid" density="10" chemic="neutral" resistant="0" burnable="1" />
+            </material>
+            <material name="Salt water" info="Water containing salt" dontadd="1">
+                <properties color="0_191_255" physx="saltWater" type="fluid" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+            <material name="Lye" info="Destroys Acid">
+                <properties color="205_200_177" physx="lye" type="fluid" density="0" chemic="alkaline" resistant="1" burnable="0" />
+            </material>
+            <material name="Magma" info="BURNS everything">
+                <properties color="255_069_0" physx="lava" type="fluid" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+            <material name="Fire" info="Burns other elements.">
+                <properties color="255_0_0" physx="fire" type="fire" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+			<material name="Lightning" info="Lighting! =)">
+                <properties color="255_150_150" physx="lightning" density="0" type="plant" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+			<material name="Black hole" info="Destroy the whole area!">
+                <properties color="204_000_204" physx="multidestroyer" density="0" type="plant" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+			<material name="carbon" info="Carbon">
+                <properties color="51_051_51" physx="carbon" density="0" type="plant" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+			<material name="clone" info="Becomes the first element it touches">
+                <properties color="153_000_204" physx="cloner" density="0" type="plant" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+			<material name="WindyeBynde" info="Generates wind!!!">
+                <properties color="139_137_137" physx="wind" density="0" type="plant" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+			<material name="diamond" info="Diamond" dontadd="1">
+                <properties color="51_255_245" physx="wall" density="0" type="plant" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+			<material name="???" info="A disappearing thingy">
+                <properties color="255_150_150" physx="disapeering" density="0" type="plant" chemic="neutral" resistant="1" burnable="0" />
+            </material>
+        </group>
+	<group name="Equipments" category="equipment" >
+            <equipment name="Fire torch" info="Makes fire from time to time.">
+                <properties color="255_140_0" physx="torch" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+            <equipment name="Water tap" info="Just like a spout, it...">
+                <properties color="30_144_255" physx="water_tap" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+            <equipment name="Oil tap" info="Free oil!">
+                <properties color="165_42_42" physx="oil_tap" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+            <equipment name="Sand tap" info="Sand is made here!">
+                <properties color="160_82_45" physx="sand_tap" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+            <equipment name="Salt tap" info="">
+                <properties color="0_0_0" physx="concrete" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+            <equipment name="Lime tap" info="">
+                <properties color="0_0_0" physx="concrete" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+            <equipment name="Acid tap" info="">
+                <properties color="0_0_0" physx="water_tap" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+            <equipment name="Lye tap" info="">
+                <properties color="0_0_0" physx="water_tap" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+            <equipment name="Gas tap" info="Free gas!">
+                <properties color="0_0_0" physx="concrete" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+            <equipment name="Smokestack" info="">
+                <properties color="0_0_0" physx="concrete" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+            <equipment name="Steam tap" info="">
+                <properties color="0_0_0" physx="concrete" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+            <equipment name="Volcano" info="">
+                <properties color="0_0_0" physx="concrete" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+            <equipment name="Geyser" info="">
+                <properties color="0_0_0" physx="concrete" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+            <equipment name="Turbine" info="">
+                <properties color="0_0_0" physx="concrete" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+            <equipment name="Hoover" info="">
+                <properties color="0_0_0" physx="concrete" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </equipment>
+	</group>
+	<group name="Builds" category="build" >
+            <build name="Concrete" info="Only magma can get through...">
+                <properties color="139_137_137" physx="concrete" density="0"  chemic="neutral" resistant="1" burnable="0" />
+            </build>
+            <build name="Lime" info="Really nice material.">
+                <properties color="186_85_211" physx="lime" density="0" chemic="neutral" resistant="0" burnable="0" />
+            </build>
+            <build name="Iron" info="A metal.">
+                <properties color="230_230_250" physx="iron" density="0" chemic="neutral" resistant="0" burnable="0" />
+            </build>
+            <build name="Wood" info="Light but burnable.">
+                <properties color="0_0_0" physx="concrete" density="0" chemic="neutral" resistant="0" burnable="1" />
+            </build>
+            <build name="Ice" info="Less than 0oC water.">
+                <properties color="175_238_238" physx="ice" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </build>
+            <build name="Plant" info="Grows when exposed to Water.">
+                <properties color="0_255_0" physx="plant" density="0" chemic="neutral" resistant="0" burnable="1" />
+            </build>
+            <build name="Fluid Filter" info="Only fluids can get throught">
+                <properties color="0_255_255" physx="fluid_filter" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </build>
+            <build name="Acid filter" info="Only acid can get through">
+                <properties color="200_0_255" physx="acid_filter" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </build>
+            <build name="Salt Filter" info="Filters saltwater to salt and water">
+                <properties color="85_107_47" physx="salt_filter" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </build>
+	</group>
+	<group name="Tools" category="tool" >
+			<tool name="Eraser" info="Clears the place.">
+                <properties color="0_0_0" physx="eraser" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </tool>
+            <tool name="Match" info="Makes fire when reached ground">
+                <properties  color="178_34_34" physx="match" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </tool>
+            <tool name="TNT" info="Makes Big Bada Boom!">
+                <properties color="175_175_255" physx="tnt" density="0" chemic="neutral" resistant="1" burnable="0" />
+            </tool>
+	</group>
+</groups>

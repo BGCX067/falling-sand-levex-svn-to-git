@@ -1,0 +1,10 @@
+; dlltool --base-file C:\Users\Levex\AppData\Local\Temp/cca03628.base --output-exp LevLib.exp --dllname LevLib.dll --output-def libLevLib.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\Users\Levex\AppData\Local\Temp/cca03628.def --output-lib libLevLib.a
+EXPORTS
+	Java_org_levex_games_fallingsand_Start_getNameOfSand@12 @ 1
+	Java_org_levex_games_fallingsand_Start_getVersion = Java_org_levex_games_fallingsand_Start_getVersion@8 @ 2
+	Java_org_levex_games_fallingsand_Start_getVersion@8 @ 3
+	Java_org_levex_games_fallingsand_Start_getWindowName = Java_org_levex_games_fallingsand_Start_getWindowName@8 @ 4
+	Java_org_levex_games_fallingsand_Start_getWindowName@8 @ 5
+	Java_org_levex_games_fallingsand_Start_initNatives = Java_org_levex_games_fallingsand_Start_initNatives@12 @ 6
+	Java_org_levex_games_fallingsand_Start_initNatives@12 @ 7
+	Java_org_levex_games_fallingsand_Start_getNameOfSand = Java_org_levex_games_fallingsand_Start_getNameOfSand@12 @ 8

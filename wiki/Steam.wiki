@@ -1,0 +1,12 @@
+#summary Steam
+
+= Introduction =
+
+Steam, the heated water.
+
+= Behavior =
+ 
+ * Made when [Water water] is [Temperature heated] over 100°C
+ * Goes up if there is an empty space above
+ * Goes up even in [Water].
+ * Might turn to [Water water], when [Temperature cooled].

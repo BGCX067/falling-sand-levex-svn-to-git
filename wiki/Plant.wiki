@@ -1,0 +1,10 @@
+#summary Plant
+= Introduction =
+
+Plant, the space killer.
+
+
+= Behavior =
+
+ * When exposed to [Water water], it grows insanely.
+ * When exposed to [Fire fire], it burns quite fast.

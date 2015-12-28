@@ -1,0 +1,19 @@
+benzin
+puskapor
+puskapor+benzin=TNT
+puskapor+fire=BIG BOOM
+benzin+fire=BIG BOOM
+sár
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+        Canvas.MAP_WIDTH = jSlider1.getValue();
+        Canvas.MAP_HEIGHT = jSlider2.getValue();
+        finished = true;
+        this.setVisible(false);
+    }
+
+
+jSlider1.setMinimum(100);
+        jSlider1.setMaximum(1024);
+        jSlider2.setMinimum(100);
+        jSlider2.setMaximum(768);

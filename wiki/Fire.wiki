@@ -1,0 +1,10 @@
+#summary Fire
+
+= Introduction =
+
+Fire, the life destroyer.
+
+
+= Behavior =
+ * Sets [Plant plant] on fire.
+ * Sets [Oil oil] on fire. 
